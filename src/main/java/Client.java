@@ -6,7 +6,7 @@ public class Client {
     public static void main(String[] args) {
         String HOST = "localhost";
         String result;
-        String searchWord = "ярких";
+        String searchWord = "Определение";
         int PORT = 8989;
         try (Socket clientSocket = new Socket(HOST, PORT);
              BufferedReader in = new BufferedReader(

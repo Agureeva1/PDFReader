@@ -46,7 +46,7 @@ public class PageEntry implements Comparable<PageEntry> {
                 "pdfName='" + fileName + '\'' +
                 ", page=" + page +
                 ", count=" + count +
-                '}';
+                '}'+"\n";
     }
 
 }
